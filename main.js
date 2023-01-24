@@ -10,7 +10,7 @@ btnInc.addEventListener("click", () => {
   numContainer.textContent = value;
 });
 
-btnDec.addEventListener("click", () => {
+btnDec.addEventListener( "click ", () => {
   value--;
   numContainer.textContent = value;
 });
